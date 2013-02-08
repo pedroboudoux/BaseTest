@@ -1,0 +1,25 @@
+{
+    "name": "pedroboudoux/BaseTest",
+    "description": "Testando o GIT com SON",
+    "license": "MIT",
+    "keywords": [
+        "module",
+        "zf2",
+        "son"
+    ],
+    "homepage": "http://framework.zend.com/",
+    "authors":[{
+        "name" : "Pedro Boudoux",
+        "email": "pedro@teste.com"
+    }],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+        "doctrine/doctrine-orm-module": "dev-master"
+    },
+   "autoload":{
+       "psr-0":{
+           "SONBase": "src/"
+       }
+   }
+}
